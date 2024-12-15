@@ -22,7 +22,7 @@ namespace GameEv{
 
         [HideInInspector]
         public                  int                                 level                           = 1;
-        public const            int                                 maxLevel                        = 4;
+        public const            int                                 maxLevel                        = 1;
 
         [HideInInspector]
         public                  int                                 CurrentFinalScore               = 0;
@@ -33,6 +33,6 @@ namespace GameEv{
         public                  bool                                CursorLock                      = true;
         public                  bool                                FirstRun                        = true;
 		public                  bool                                QuizStart                       = false;
-        
+        public                  int                                 Difficulty                      = 0;
     }
 }

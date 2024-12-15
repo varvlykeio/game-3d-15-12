@@ -290,7 +290,7 @@ namespace Gamemanagera{
         /// </summary>
         void LoadData()
         {
-            var path = Path.Combine(GameUtility.FileDir, GameUtility.FileName + events.level + ".xml");
+            var path = Path.Combine(GameUtility.FileDir, GameUtility.FileName + events.level + events.Difficulty + ".xml");
             data = Data.Fetch(path);
         }
 

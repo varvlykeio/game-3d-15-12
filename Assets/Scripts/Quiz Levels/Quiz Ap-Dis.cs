@@ -26,21 +26,21 @@ namespace QuizVars{
 			events.TotalScore =events.TotalScore+1-1; //Εβγαζε το Unity πρόβλημα ότι δεν το χρησιμοποιούσαμε. Τώρα το χρησιμοποιούμε!
 			
 		}
-		QuizCols1 scriptInstance1 = null;
-		QuizCols2 scriptInstance2 = null;
-		QuizCols3 scriptInstance3 = null;	
+		QuizCols scriptInstance1 = null;
+		QuizCols scriptInstance2 = null;
+		QuizCols scriptInstance3 = null;	
 		void Update () {
 			GameObject tempObj1 = GameObject.Find("ATM1(Clone)");
-			scriptInstance1 = tempObj1.GetComponent<QuizCols1>();
+			scriptInstance1 = tempObj1.GetComponent<QuizCols>();
 			GameObject tempObj2 = GameObject.Find("ATM2(Clone)");
-			scriptInstance2 = tempObj2.GetComponent<QuizCols2>();
+			scriptInstance2 = tempObj2.GetComponent<QuizCols>();
 			GameObject tempObj3 = GameObject.Find("ATM3(Clone)");
-			scriptInstance3 = tempObj3.GetComponent<QuizCols3>();
+			scriptInstance3 = tempObj3.GetComponent<QuizCols>();
 				
 
-			levelcheck1 = scriptInstance1.pusher1;
-			levelcheck2 = scriptInstance2.pusher2;
-			levelcheck3 = scriptInstance3.pusher3;
+			levelcheck1 = scriptInstance1.pusher;
+			levelcheck2 = scriptInstance2.pusher;
+			levelcheck3 = scriptInstance3.pusher;
 
 
 	

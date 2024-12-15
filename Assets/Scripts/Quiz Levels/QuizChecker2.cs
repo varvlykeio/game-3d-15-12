@@ -22,13 +22,15 @@ namespace QuizCol {
      
         }
 
-         public void Update(){
+          public void Update(){
 
             if (activate == true){
                 if(Input.GetKeyDown("i")){
 
                     pusher2 = true;
-                    events.CursorLock = false; 
+                    events.CursorLock = false;
+                    events.QuizStart = true;
+                    events.Difficulty = 2;
                 }
             }
         }

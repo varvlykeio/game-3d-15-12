@@ -385,6 +385,7 @@
 "Assets/Scripts/Mono/GameManager.cs"
 "Assets/Scripts/Mono/UIManager.cs"
 "Assets/Scripts/Quiz Levels/Quiz Ap-Dis.cs"
+"Assets/Scripts/Quiz Levels/QuizChecker.cs"
 "Assets/Scripts/Quiz Levels/QuizChecker1.cs"
 "Assets/Scripts/Quiz Levels/QuizChecker2.cs"
 "Assets/Scripts/Quiz Levels/QuizChecker3.cs"

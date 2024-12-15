@@ -30,6 +30,7 @@ namespace QuizCol {
                     pusher1 = true;
                     events.CursorLock = false;
                     events.QuizStart = true;
+                    events.Difficulty = 1;
 
                 }
             }
